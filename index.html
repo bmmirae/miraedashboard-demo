@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>[데모] 미래아이엔씨 통합DB 테스트 환경</title>
+<style>
+*{box-sizing:border-box}body{margin:0;min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;font-family:-apple-system,'Pretendard','Malgun Gothic',sans-serif;background:linear-gradient(160deg,#f5f7fb,#e8edf5);color:#222}
+.bar{position:fixed;top:0;left:0;right:0;background:#ff9800;color:#fff;text-align:center;font-size:12px;font-weight:700;padding:4px}
+.box{background:#fff;border-radius:18px;box-shadow:0 10px 40px rgba(0,0,0,.08);padding:36px 32px;width:min(560px,92vw);text-align:center}
+.box img{height:46px;margin-bottom:10px}h1{font-size:20px;margin:6px 0 4px}p.s{color:#777;font-size:13px;margin:0 0 26px}
+.go{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.go a{display:block;text-decoration:none;color:#222;border:1.5px solid #e2e6ee;border-radius:14px;padding:22px 10px;transition:.15s}
+.go a:hover{border-color:#3b6fd8;transform:translateY(-2px);box-shadow:0 6px 18px rgba(59,111,216,.15)}
+.go b{display:block;font-size:30px;margin-bottom:6px}.go span{font-weight:700;font-size:15px}.go small{display:block;color:#888;font-size:12px;margin-top:6px}
+.acc{margin-top:22px;font-size:12px;color:#666;background:#fafbfd;border-radius:10px;padding:10px;line-height:1.7}
+@media(max-width:480px){.go{grid-template-columns:1fr}}
+</style></head><body>
+<div class="bar">🧪 테스트(데모) 환경 · 실제 업무 데이터와 완전히 분리됨</div>
+<div class="box">
+  <img src="ci_logo/CI-png파일.png" alt="" onerror="this.remove()">
+  <h1>통합DB 테스트 환경</h1>
+  <p class="s">접속할 화면을 고르세요</p>
+  <div class="go">
+    <a href="member"><b>👤</b><span>사원 접속</span><small>사원 통합DB 대시보드</small></a>
+    <a href="admin"><b>🧭</b><span>관리자 접속</span><small>부서장 가망건 대시보드</small></a>
+  </div>
+  <div class="acc">사원: <b>demo01</b> / demo1234 &nbsp;·&nbsp; 관리자: <b>데모 팀장(demo_lead)</b> 선택 / demo1234<br>샘플 업체 5건은 모두 가상의 데이터입니다</div>
+</div>
+</body></html>
